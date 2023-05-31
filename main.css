@@ -2,36 +2,86 @@
     left: 1px;
     position: absolute;
     height: 100%;
-    width: 150px;
-    color: black;
-    border: 1px solid;
+    width: 130px;
+    color: white;
+    background-color: rgb(3 151 214);
+    border-radius: 10px 10px 0 0;
+    border: 0;
+}
+.menuheader {
+    left: 0;
+    text-align: center;
+    width: auto;
+    padding: 0px;
+    font-size: 18pt;
 }
 h1 {
     position: relative;
     left: 150px;
     margin-top: 0;
+    background-color: rgb(3 151 214);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    width: max-content;
+}
+h2 {
+    position: relative;
+    left: 150px;
+    margin-top: 0;
+    background-color: rgb(3 151 214);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    width: max-content;
+    font-size: 20pt;
 }
 header {
-    background-color: white;
+    background-color;
     padding: 10px; 
 }
 div {
     position:relative;
     left: 150px;
+    background-color: rgb(3 151 214);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16pt;
+    width: 700px;
 }
 a {
     text-decoration: none;
-    color: black; 
+    color: white; 
     padding: 2px;
-    margin: 2px;
+    border-radius: 5px;
+    font-size: 14pt;
 }
 a:hover {
     transition: 0.5s;
-    background-color: #ccf;
+    background-color: white;
+    color: rgb(3 151 214);
 }
 .chosen {
-    color: darkgray;
+    color: rgb(3 151 214);
+    background-color: white;
 }
-br {
-    border: 1px solid;
+/* footer {
+    background-color: rgb(3 151 214);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    text-align: right;
+    width: 80%;
+    border-radius: 5px 0 0 5px;
+    font-size: 18pt;
+    color: white;
+} */
+ul {
+    margin: -15px;
+    margin-top: 10px;
+}
+li {
+    margin: 5px;
 }
