@@ -1,0 +1,37 @@
+.menu {
+    left: 1px;
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    color: black;
+    border: 1px solid;
+}
+h1 {
+    position: relative;
+    left: 150px;
+    margin-top: 0;
+}
+header {
+    background-color: white;
+    padding: 10px; 
+}
+div {
+    position:relative;
+    left: 150px;
+}
+a {
+    text-decoration: none;
+    color: black; 
+    padding: 2px;
+    margin: 2px;
+}
+a:hover {
+    transition: 0.5s;
+    background-color: #ccf;
+}
+.chosen {
+    color: darkgray;
+}
+br {
+    border: 1px solid;
+}
