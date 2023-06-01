@@ -6,17 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Видео</title>
     <link rel="stylesheet" href="main.css">
-    <style>
-        iframe {
-            position: relative; 
-            text-align: center;
-            left: 150px;
-            border: 2px solid;
-            border-radius: 10px;
-            border-color: rgb(3 151 214);
-            
-        }
-    </style>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <header>
@@ -24,7 +14,7 @@
     </header>
 
     <main>
-        <div class="menu"></div>
+        <div class="menu" onclick="scrolltotop()"></div>
 
         <div class="menulink">
             <h2 class="menuheader" style="position:relative">Переход по разделам</h2>
@@ -36,18 +26,16 @@
             </ul>
         </div>
         
-        <h1>Посмотрите ознакомительный ролик о нашей компании!</h1>
+        <div class="container">
+            <h1>Посмотрите ознакомительный ролик о нашей компании!</h1>
 
-        <iframe width="706" height="396" 
-        src="https://www.youtube.com/embed/cHpmHbJCkRQ" 
-        title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-        gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+            <iframe width="706" height="396" 
+            src="https://www.youtube.com/embed/cHpmHbJCkRQ" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
     </main>
-    
-    <footer>
-
-    </footer>
 </body>
 </html>
