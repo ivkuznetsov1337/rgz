@@ -9,10 +9,6 @@ body {
     position: unset;
     width: auto;
 }
-.backgroundimg {
-    z-index: -100;
-    position: absolute;
-}
 .menu {
     left: 0;
     position: fixed;
@@ -25,15 +21,6 @@ body {
     top: 0;
     cursor: pointer;
     z-index: 3;
-}
-img {
-    position: relative;
-    width: 700px;
-    left: 150px;
-    /* border: 2px solid;
-    border-color: rgb(3 151 214); */
-    border-radius: 10px;
-    margin-bottom: 10px;
 }
 .menulink {
     width: 130px;
@@ -50,6 +37,13 @@ img {
     font-size: 18pt;
     z-index: 3;
     position: relative;
+}
+img {
+    position: relative;
+    width: 700px;
+    left: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 h1 {
     position: relative;
@@ -127,18 +121,6 @@ a:hover {
     color: rgb(3 151 214);
     background-color: white;
 }
-/* footer {
-    background-color: rgb(3 151 214);
-    position: relative;
-    bottom: 0;
-    right: 0;
-    height: 50px;
-    text-align: right;
-    width: 80%;
-    border-radius: 5px 0 0 5px;
-    font-size: 18pt;
-    color: white;
-} */
 ul {
     width: max-content;
     z-index: 4;
