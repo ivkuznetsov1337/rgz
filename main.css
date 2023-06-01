@@ -1,44 +1,78 @@
+@font-face {
+    font-family: 'Font';
+    src: url(font.woff);
+}
+body {
+    font-family: 'Font';
+    overflow-x: hidden;
+}
+.logo {
+    border: 0;
+    position: unset;
+    width: auto;
+}
 .menu {
-    left: 1px;
-    position: absolute;
-    height: 100%;
+    left: 0;
+    position: fixed;
     width: 130px;
+    height: 100%;
     color: white;
     background-color: rgb(3 151 214);
-    border-radius: 10px 10px 0 0;
     border: 0;
+    border-radius: 0;
+    top: 0;
+}
+img {
+    position: relative;
+    width: 716px;
+    left: 150px;
+    border: 2px solid;
+    border-color: rgb(3 151 214);
+    border-radius: 10px;
+}
+.menulink {
+    width: 130px;
+    position: absolute;
+    left: 0;
+    padding: 0;
 }
 .menuheader {
     left: 0;
     text-align: center;
-    width: auto;
+    width: 150px;
     padding: 0px;
     font-size: 18pt;
+    z-index: 3;
+    position: relative;
 }
 h1 {
     position: relative;
+    text-align: center;
     left: 150px;
     margin-top: 0;
     background-color: rgb(3 151 214);
     border-radius: 10px;
     padding: 5px;
     color: white;
-    width: max-content;
+    width: 700px;
 }
 h2 {
     position: relative;
+    width: 700px;
+    text-align: center;
     left: 150px;
     margin-top: 0;
     background-color: rgb(3 151 214);
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     color: white;
-    width: max-content;
     font-size: 20pt;
 }
 header {
     background-color;
     padding: 10px; 
+    left: 150px;
+    position: relative;
 }
 div {
     position:relative;
@@ -46,9 +80,10 @@ div {
     background-color: rgb(3 151 214);
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16pt;
     width: 700px;
+    margin-bottom: 20px;
 }
 a {
     text-decoration: none;
